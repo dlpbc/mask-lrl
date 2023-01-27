@@ -22,22 +22,15 @@ Example commands below using [Minigrid](https://github.com/Farama-Foundation/gym
 To run agents in the minigrid (MG10) curriculum defined in the paper, use the command below:
 
 ```
-# baseline PPO agent.
-python train_minigrid.py baseline --seed 86
-
-# random initialization of mask per task (MASK RI) agent.
-python train_minigrid.py ll_supermask --new_task_mask random --seed 86
-
-# linear combination of mask (MASK LC) agent.
+# balanced linear combination of mask (MASK BLC) agent.
 python train_minigrid.py ll_supermask --new_task_mask linear_comb --seed 86
 ```
 
 Note: 
-- the command to run a balanced linear combination (MASK BLC) agent is the same as the MASK LC command above, but should be run in the `exp_maskblc` git branch.
 - the full list of commands to run experiments in the paper can be found in the `paper_experiments.txt` file.
+- the commands to run the random initialization (MASK RI) and the linear combination (MASK BLC) agents can be found in the `master` git branch.
 - sample commands and the full list of commands for `ewc` experiments in the paper can be found in the `exp_ewc` git branch. 
 - sample commands and the full list of commands for setting up the single task expert (STE) experiments can be found in the `exp_ste` git branch.
-- In the continualworld curriculum (CW10), the random initialization mask agent implemented in this branch is the MASK RI\_C (continuous values mask). The sample command to run MASK RI_\D in CW10 can be found in the `exp_maskri_discrete_mask_cw10` git branch.
 
 
 #### BibTex
