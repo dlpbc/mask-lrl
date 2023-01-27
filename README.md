@@ -2,6 +2,8 @@
 Code for paper [Lifelong Reinforcement Learning with Modulating Masks](https://arxiv.org/abs/2212.11110).
 Implementation of modulatory mask combined with PPO. The repository contains MASK RI/LC/BLC implementations. Please see EWC branch for implemenation of PPO and Online EWC.
 
+**This branch contains the implementation and code to run PPO combined with MASK BLC (Balanced Linear Combination).**
+
 The code was developed on top of the existing [DeepRL](https://github.com/ShangtongZhang/DeepRL) repository, extending PPO RL agents to lifelong learning setting.
 
 Python 3.9 and PyTorch 1.12.0 were used for experiments in the paper.
