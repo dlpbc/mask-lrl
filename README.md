@@ -1,5 +1,6 @@
-# Modulatory Mask PPO
-Lifelong reinforcement learning (LRL) implementation of modulatory mask combined with PPO. The repository contains MASK RI/LC/BLC implementations. Please see EWC branch for implemenation of PPO and Online EWC.
+# Lifelong Reinforcement Learning with Modulating Masks
+Code for paper [Lifelong Reinforcement Learning with Modulating Masks](https://arxiv.org/abs/2212.11110).
+Implementation of modulatory mask combined with PPO. The repository contains MASK RI/LC/BLC implementations. Please see EWC branch for implemenation of PPO and Online EWC.
 
 The code was developed on top of existing [DeepRL](https://github.com/ShangtongZhang/DeepRL) repository, extending PPO RL agents to lifelong learning setting.
 
