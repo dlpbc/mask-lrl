@@ -2,7 +2,7 @@
 Code for paper [Lifelong Reinforcement Learning with Modulating Masks](https://arxiv.org/abs/2212.11110).
 Implementation of modulatory mask combined with PPO. The repository contains MASK RI/LC/BLC implementations. Please see EWC branch for implemenation of PPO and Online EWC.
 
-_This branch contains the code to run MASK RI_C for Continual World experiment._
+**This branch contains the code to run MASK RI_C for Continual World experiment.**
 
 The code was developed on top of the existing [DeepRL](https://github.com/ShangtongZhang/DeepRL) repository, extending PPO RL agents to lifelong learning setting.
 
