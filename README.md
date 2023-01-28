@@ -8,6 +8,8 @@ The code was developed on top of the existing [DeepRL](https://github.com/Shangt
 
 Python 3.9 and PyTorch 1.12.0 were used for experiments in the paper.
 
+For Mask RI/LC/BLC experiment and other baselines in the Procgen benchmark, please visit this [repository](https://github.com/dlpbc/mask-lrl-procgen).
+
 ## Evaluation environments
 - [CT-graph](https://github.com/soltoggio/CT-graph)
 - [Minigrid](https://github.com/Farama-Foundation/gym-minigrid)
